@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{margin:0px; font-family: 'robotoregular'; font-weight:300;}
+body{background: #222;}
+h1{color:#fff; padding: 4% 0px; font-size: 2.6em;}
+#colorDisplayBox{text-align: center;}
+#gameOtions{text-align: center;}
+#squaresContainer{width:60%; margin: 0 auto;}
+#square{width:30%; padding-bottom: 23%; background: purple; float: left; margin: 1.3%; border-radius: 10px;}
+.fadeOut{background: #fff!important; transition:0.5s;}
+.selected{background:#0095FF; color:#fff;}
+#gameOtions{background: #fff;  margin-bottom: 30px;}
+#resetButton, #easyButton, #hardButton{background: #e05038; color: #fff; border: none; padding: 10px 20px;font-size: 18px; outline:0; cursor: alias;}
+#resetButton:hover, #easyButton:hover, #hardButton:hover{cursor:pointer;}
+#anwserReview{padding: 0 30px; font-weight:bold}
+
